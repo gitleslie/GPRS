@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/app/inc/hardware.h" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/inc/mqttcloud.h" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/TCP.c" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/app.c" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/genaric.c" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/hardware.c" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/manage.c" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/mqttcloud.c" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/nwsetup.c" charset="UTF-8" />
+  </component>
+</project>

@@ -1,0 +1,15 @@
+---- m_state Matches (15 in 2 files) ----
+App.c (c:\users\trento\desktop\g510_ali_mqtt_demo_v00000001\app\src):MQTT_STATE_T m_state=MQTT_STATE_DISCONNECT;
+Mqttcloud.c (c:\users\trento\desktop\g510_ali_mqtt_demo_v00000001\app\src):extern MQTT_STATE_T m_state;
+Mqttcloud.c (c:\users\trento\desktop\g510_ali_mqtt_demo_v00000001\app\src):	while((m_state == MQTT_STATE_PROCRECV)||(m_state == MQTT_STATE_PROCPUB))
+Mqttcloud.c (c:\users\trento\desktop\g510_ali_mqtt_demo_v00000001\app\src):	m_state = MQTT_STATE_PING;
+Mqttcloud.c (c:\users\trento\desktop\g510_ali_mqtt_demo_v00000001\app\src):	m_state = MQTT_STATE_CONNECT;
+Mqttcloud.c (c:\users\trento\desktop\g510_ali_mqtt_demo_v00000001\app\src):			if((m_state==MQTT_STATE_CONNECT) && (SecondCnt%MQTT_PING_TIME==0))
+Mqttcloud.c (c:\users\trento\desktop\g510_ali_mqtt_demo_v00000001\app\src):			if(m_state!=MQTT_STATE_CONNECT)
+Mqttcloud.c (c:\users\trento\desktop\g510_ali_mqtt_demo_v00000001\app\src):			m_state=MQTT_STATE_CONNECT;
+Mqttcloud.c (c:\users\trento\desktop\g510_ali_mqtt_demo_v00000001\app\src):			m_state = MQTT_STATE_PROCPUB;
+Mqttcloud.c (c:\users\trento\desktop\g510_ali_mqtt_demo_v00000001\app\src):			m_state = MQTT_STATE_CONNECT;
+Mqttcloud.c (c:\users\trento\desktop\g510_ali_mqtt_demo_v00000001\app\src):			m_state = MQTT_STATE_PROCRECV;
+Mqttcloud.c (c:\users\trento\desktop\g510_ali_mqtt_demo_v00000001\app\src):			m_state = MQTT_STATE_CONNECT;
+Mqttcloud.c (c:\users\trento\desktop\g510_ali_mqtt_demo_v00000001\app\src):			m_state = MQTT_STATE_DISCONNECT;
+Mqttcloud.c (c:\users\trento\desktop\g510_ali_mqtt_demo_v00000001\app\src):					m_state=MQTT_STATE_CONNECT;

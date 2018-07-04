@@ -1,0 +1,113 @@
+cmake_minimum_required(VERSION 3.9)
+project(G510_Ali_MQTT_Demo_V00000002_T1)
+
+set(CMAKE_CXX_STANDARD 11)
+
+
+INCLUDE_DIRECTORIES(
+        app/inc
+        inc
+)
+
+AUX_SOURCE_DIRECTORY(app/src DIR_SRCS)
+
+
+add_executable(G510_Ali_MQTT_Demo_V00000002_T1
+        app/inc/app.h
+        app/inc/cmd.h
+        app/inc/cmddef.h
+        app/inc/debug.h
+        app/inc/hardware.h
+        app/inc/LPG.h
+        app/inc/manage.h
+        app/inc/mqtt_client.h
+        app/inc/mqttcloud.h
+        app/inc/MQTTPacket.h
+        app/inc/nwsetup.h
+        app/inc/TCP.h
+        app/inc/utils_base64.h
+        app/inc/utils_debug.h
+        app/inc/utils_epoch_time.h
+        app/inc/utils_hmac.h
+        app/inc/utils_httpc.h
+        app/inc/utils_list.h
+        app/inc/utils_md5.h
+        app/inc/utils_net.h
+        app/inc/utils_sha1.h
+        app/inc/utils_timer.h
+        app/src/app.c
+        app/src/ca.c
+        app/src/cmd.c
+        app/src/debug.c
+        app/src/device.c
+        app/src/genaric.c
+        app/src/guider.c
+        app/src/hardware.c
+        app/src/iot_import.c
+        app/src/json_parser.c
+        app/src/json_token.c
+        app/src/lite-log.c
+        app/src/lite-utils_prog.c
+        app/src/lite-utils_testsuites.c
+        app/src/LPG.c
+        app/src/manage.c
+        app/src/mem_stats.c
+        app/src/mqtt_client.c
+        app/src/mqttcloud.c
+        app/src/MQTTConnectClient.c
+        app/src/MQTTDeserializePublish.c
+        app/src/MQTTPacket.c
+        app/src/MQTTSerializePublish.c
+        app/src/MQTTSubscribeClient.c
+        app/src/MQTTUnsubscribeClient.c
+        app/src/netsysmsg.c
+        app/src/nwsetup.c
+        app/src/sdk-impl.c
+        app/src/string_utils.c
+        app/src/TCP.c
+        app/src/utils_base64.c
+        app/src/utils_epoch_time.c
+        app/src/utils_hmac.c
+        app/src/utils_httpc.c
+        app/src/utils_list.c
+        app/src/utils_md5.c
+        app/src/utils_net.c
+        app/src/utils_sha1.c
+        app/src/utils_timer.c
+        inc/ca.h
+        inc/cs_types.h
+        inc/ctype.h
+        inc/device.h
+        inc/fdlibm.h
+        inc/guider.h
+        inc/guider_internal.h
+        inc/ieeefp.h
+        inc/iot_export.h
+        inc/iot_export_device.h
+        inc/iot_export_errno.h
+        inc/iot_export_mqtt.h
+        inc/iot_import.h
+        inc/json_parser.h
+        inc/lite-list.h
+        inc/lite-log.h
+        inc/lite-log_internal.h
+        inc/lite-utils.h
+        inc/lite-utils_config.h
+        inc/lite-utils_internal.h
+        inc/mem_stats.h
+        inc/MQTTConnect.h
+        inc/MQTTPacket.h
+        inc/MQTTPublish.h
+        inc/MQTTSubscribe.h
+        inc/MQTTUnsubscribe.h
+        inc/sdk-impl_internal.h
+        inc/stdarg.h
+        inc/stddef.h
+        inc/stdio.h
+        inc/stdlib.h
+        inc/string.h
+        inc/string_utils.h
+        inc/sys_callback.h
+        inc/sys_ext.h
+        inc/sys_services.h
+        tool/g510chksum.c app/inc/http.h app/src/http.c)
